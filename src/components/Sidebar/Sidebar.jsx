@@ -4,7 +4,6 @@ import './Sidebar.scss'
 export const Sidebar = () => {
   return (
     <div className="navbar">
-      <h1>teste</h1>
       <div className="logo">
         <svg viewBox="0 0 1134 340" className="spotify-logo--text">
           <title>Spotify</title>
@@ -14,8 +13,8 @@ export const Sidebar = () => {
           ></path>
         </svg>
       </div>
-      <ul>
-        <li className="active">Home</li>
+      <ul className='links'>
+        <li>Home</li>
         <li>Search</li>
         <li>Your Library</li>
       </ul>
