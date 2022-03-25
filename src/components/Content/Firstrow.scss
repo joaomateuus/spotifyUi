@@ -7,8 +7,53 @@ $greenMain: #1db954;
 
 .row-wrapper{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    width: 100vw;
+    border: 1px solid white;
 }
 
 .row{
-    color: white;
+    margin-bottom: 5vh;
+    margin-left: 2vw;
+    h1{
+        color: white;
+        padding-left: 2vw;
+    }
 }
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2vh 2vw;
+    justify-content: flex-start;
+    height: 30vh;
+    width: 100vw;
+    margin-right: 2vw;
+    border: 1px solid white;
+}
+
+.cards-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid white;
+    border-radius: 9px;
+    height: 10.5vh;
+    width: 20vw;
+    
+    img {
+        height: 64px;
+        width: 64px;
+        border-radius: 5px;
+    }
+
+
+
+}
+
+
